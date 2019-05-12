@@ -5,6 +5,11 @@ Below are Python Program names and its descriptions. It is recommended to use th
     - Linear Model
     - Tensorflow sklearn LinearRegression
     - Feature Engineering training on data using StandardScaler
+- "IRIS-SVM"
+    - IRIS data 
+    - Binary output: y or n
+    - Algorithms to train: sklearn.svm SVC
+    - Validate with validation data
 - "Reading MNIST image from local drive"
     - Image Data Solution
     - Reading MNIST local data using skimage
@@ -17,4 +22,36 @@ Below are Python Program names and its descriptions. It is recommended to use th
         - Logistic Regression using sklearn LogisticRegression
         - SVM using sklearn SVC
         - DNN using keras
-     
+    - Compare the accuracy of three algorithms
+- "MNIST-sklearn-SGDClassifier
+    - MNIST image data: 0 to 9
+    - Multiple Classification: 10
+    - Algorithms to train: sklearn SGDClassifier
+    - Accuracy Validation
+    - Predict with the trained model
+- "MNIST-Keras-DNN-6-hidden-layers"
+    - MNIST image data: 0 to 9
+    - Multiple Classification: 10
+    - Algorithms to train: DNN using keras Sequential, Dense
+        - 6 hidden layers
+        - activation funciton - relu and softmax
+        - loss function - categorical_crossentropy
+        - optimizer - sgd
+    - Predict with the trained model
+- "MNIST-keras-CNN
+    - MNIST image data: 0 to 9
+    - Multiple Classification: 10
+    - Algorithms to train: CNN using keras Sequential, Conv2D, MaxPooling2D, Dense
+        - 3 Convolution & Pooling
+        - activation funciton - relu and softmax
+        - loss function - categorical_crossentropy
+        - optimizer - adam
+    - Evaludate the model
+    - Predict with the trained model
+- "Transfer-Learning-VGG16-Keras"
+    - Transfer Learning: VGG16
+    - import VGG model using kears.application vgg16.VGG16
+    - Build new model using VGG16 
+        - use VGG16 output as a input using vgg_model.output
+        - add additional lyaer using Flatten, Dense
+    - Extract layers from model using model.layers get_weights
